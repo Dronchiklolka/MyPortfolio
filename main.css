@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 500px;
+    background-color: #4f4f4f;
+}
+
+body{
+    margin: 0;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+img{
+    border: 0;
+    vertical-align: middle;
+}
+
+
+nav a{
+    padding: 15px 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__navigation{
+    display:flex;
+    justify-content: space-around;
+}
+
+.header__title{
+
+}
+
+.header__heading{
+    text-align: center;
+}
+
+.header__photo{
+    display: flex;
+    justify-content: center;
+}
+
+.photo__person{
+    border-radius: 50%;
+    box-shadow: 0 0 7px #666
+}
